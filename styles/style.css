@@ -1,0 +1,123 @@
+*,
+*::after
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.logo{
+	width: 5em;
+	height: 5em;
+	border-radius: 100em;
+}
+ul{
+	display: flex;
+	margin-left:375px;
+	padding-bottom: auto;
+}
+.list{
+	padding: 50px;
+	font-size: 20px;
+	font-style: italic;
+}
+	
+
+
+a{
+	color: black;
+}
+.links{
+	
+	width: 200px;
+	/*height: 100px;*/
+	display: inline-flex;
+}
+.display-1{
+	text-shadow: 5px 5px 5px black;
+	border-style: solid;
+	border-radius: 500rem;
+	border-width: 7px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 1cm;
+}
+.nav-bar{
+	height: 140px
+}
+.petz{
+	width: 224px;
+	height: 224px;
+}
+.button{
+	display: inline;
+}
+body{
+	background-image: url(https://i.postimg.cc/rmpPBBdr/neutral-abstract-background-with-gold-stars-glitter-53876-97489.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*form*/
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid yellow;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: yellow;
+	color: black;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: lightgray;
+  }
+  
+  .container {
+	border-radius: 5px;
+	background-color: rgba(255, 238, 0, 0.468);
+	padding: 20px;
+  }
+
+  /*home images*/
+  .containerhome{
+	flex-direction: row;
+	margin: 20px
+  }
+  .containerhome2{
+	flex-direction: row;
+	margin: 20px
+  }
+  .containerhome3{
+	flex-direction: row;
+	margin: 20px
+  }
+
+  .img1{
+	border-radius: 100%;
+  }
+  .img2{
+	border-radius: 100%;
+  }
+  .img3{
+	border-radius: 100%;
+  }
+  .img4{
+	border-radius: 100%;
+  }
+  .products{
+	text-decoration: overline;
+  }
+  h2{
+	text-decoration: overline;
+  }
